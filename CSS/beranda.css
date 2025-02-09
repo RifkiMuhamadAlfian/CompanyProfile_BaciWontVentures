@@ -61,6 +61,7 @@ img {
 .profile-text h2 {
   font-size: 3rem;
   font-weight: bold;
+  text-decoration: underline solid #b8011f;
 }
 
 .profile-text p {
@@ -69,9 +70,95 @@ img {
   text-align: justify;
 }
 
+.struktur-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline solid #b8011f;
+}
+
+.member-card {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.member-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.program h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  background-color: #b8011f;
+  padding: 1rem;
+  margin-bottom: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.bg-logo {
+  background-color: #f8e5c4;
+  padding: 2rem 0;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.logo-card {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.location-info {
+  padding: 2rem;
+  text-align: center;
+}
+
+.location-info h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline solid #b8011f;
+  margin-bottom: 3rem;
+}
+
+.location-info p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.map-container {
+  background-color: #b8011f;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.map-container iframe {
+  border-radius: 20px;
+}
+
+.btn-maps {
+  background-color: #b8011f;
+  padding: 1rem 5rem;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.btn-maps:hover {
+  background-color: blue;
+}
+
 @media (max-width: 768px) {
-  .profile-section,
-  .section-1-text {
+  .section-1-text,
+  .profile-section {
     text-align: center;
   }
 
@@ -99,5 +186,30 @@ img {
 
   .profile-image img {
     max-width: 200px;
+  }
+
+  .struktur-text h2 {
+    font-size: 2rem;
+  }
+
+  .member-card {
+    display: block;
+    width: 50%;
+  }
+
+  .program h2 {
+    font-size: 2rem;
+  }
+
+  .logo-card img {
+    max-width: 130px;
+  }
+
+  .location-info h2 {
+    font-size: 2rem;
+  }
+
+  .location-info p {
+    font-size: 1rem;
   }
 }
