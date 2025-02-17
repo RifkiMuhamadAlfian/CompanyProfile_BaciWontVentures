@@ -93,3 +93,14 @@
     thisForm.querySelector(".error-message").classList.add("d-block");
   }
 })();
+
+function clearForm() {
+  setTimeout(() => {
+    document.querySelector('input[name="name"]').value = "";
+    document.querySelector('input[name="email"]').value = "";
+    document.querySelector('input[name="subject"]').value = "";
+    document.querySelector('textarea[name="message"]').value = "";
+  }, 1000);
+
+  return true;
+}
