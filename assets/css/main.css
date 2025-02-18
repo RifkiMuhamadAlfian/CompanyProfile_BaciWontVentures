@@ -352,7 +352,7 @@ h6 {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--nav-hover-color);
+    background-color: #f8e5c4;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -823,25 +823,6 @@ section,
   font-weight: 400;
 }
 
-.hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px 12px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
-}
-
-.hero .btn-get-started:hover {
-  color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
-}
-
 .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
@@ -968,15 +949,15 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Why Us Section
+# program Section
 --------------------------------------------------------------*/
-.why-us .why-box {
+.program .program-box {
   color: var(--contrast-color);
   background: var(--accent-color);
   padding: 30px;
 }
 
-.why-us .why-box h3 {
+.program .program-box h3 {
   color: var(--contrast-color);
   font-family: var(--default-font);
   font-weight: 700;
@@ -984,11 +965,11 @@ section,
   margin-bottom: 30px;
 }
 
-.why-us .why-box p {
+.program .program-box p {
   margin-bottom: 30px;
 }
 
-.why-us .why-box .more-btn {
+.program .program-box .more-btn {
   display: inline-block;
   background: color-mix(in srgb, var(--contrast-color), transparent 85%);
   padding: 8px 40px 10px 40px;
@@ -997,16 +978,16 @@ section,
   border-radius: 50px;
 }
 
-.why-us .why-box .more-btn i {
+.program .program-box .more-btn i {
   font-size: 14px;
 }
 
-.why-us .why-box .more-btn:hover {
+.program .program-box .more-btn:hover {
   color: var(--accent-color);
   background: var(--surface-color);
 }
 
-.why-us .icon-box {
+.program .icon-box {
   background-color: var(--surface-color);
   text-align: center;
   padding: 40px 30px;
@@ -1015,7 +996,7 @@ section,
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.why-us .icon-box i {
+.program .icon-box i {
   color: var(--accent-color);
   font-size: 32px;
   margin-bottom: 30px;
@@ -1029,19 +1010,19 @@ section,
   transition: 0.3s;
 }
 
-.why-us .icon-box h4 {
+.program .icon-box h4 {
   font-size: 20px;
   font-weight: 500;
   margin: 0 0 30px 0;
   font-family: var(--default-font);
 }
 
-.why-us .icon-box p {
+.program .icon-box p {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.why-us .icon-box:hover i {
+.program .icon-box:hover i {
   color: var(--contrast-color);
   background: var(--accent-color);
 }
